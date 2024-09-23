@@ -1,0 +1,36 @@
+@import "../../Responsive.scss";
+@import "../../Colors.scss";
+
+
+.accordion {  
+ 
+    border: 1px solid #ccc; // Border around accordion  
+    border-radius: 5px; // Rounded corners  
+    
+   
+    .accordion-title {  
+   
+      background-color: #f0f0f0; // Light background for title  
+      border-bottom: 1px solid #ccc; // Border below title  
+      display: flex; // Allows icon and text to stay in line  
+      align-items: center; // Vertically centers the title and icon  
+      justify-content: space-between;
+    
+   
+    
+    }  
+  
+    .accordion-content {  
+  
+      background-color: #fff; // White background for content  
+      border-top: 1px solid #ccc; // Border above content  
+      transition: max-height 0.3s ease; // Smooth transition for content  
+      direction: rtl;
+    
+    }  
+  }
+  .Accordionn{
+    @include sm{
+      margin-inline: 0 !important;
+    }
+  }

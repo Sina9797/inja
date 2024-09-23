@@ -1,0 +1,664 @@
+@import "../../Responsive.scss";
+@import "../../Colors.scss";
+
+
+
+.DD{
+width:9.5%;
+height: 70px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+box-shadow: 0px 0px 2px 0px rgba(128, 128, 128, 1);
+background-color: white;
+font-size:17px;
+&:hover{
+  color:black
+}
+@include xxl{
+  font-size: 15px !important;
+}
+
+b{
+  
+  display: flex;
+ gap: 10px;
+ 
+  align-items: center;
+
+}
+
+
+}
+
+.AA{
+height:70px;
+margin-inline: 1%;
+display: flex;
+gap: 10px;
+flex-direction: row-reverse;
+
+@include sm{
+  margin-inline: 0%;
+  margin-inline: 3%;
+
+  position: sticky;
+  top: 10px ;
+z-index: 9;
+background-color: white;
+
+border-radius:10px ;
+
+
+}
+}
+.CC{
+width: 55%;
+height: 70px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+box-shadow: 0px 0px 3px 0px rgba(128, 128, 128, 1);
+
+
+@include xl{
+  width: 90%;
+}
+@include lg{
+  width: 100%;
+}
+
+
+
+#Q{
+  @include lg{
+    width: 100%;
+    height: 100%;
+  }
+ input{
+  @include sm{
+    padding-right: 30px;
+    
+ 
+
+  }
+ }
+}
+
+
+
+}
+.EE{
+    margin-inline: 1%;
+    height:600px;
+gap: 10px;
+margin-top: 30px;
+display: flex;
+flex-direction: row;
+
+
+
+} .FF{
+
+  width: 90%;
+  height: 600px;
+
+  border-radius:15px ;
+  position: relative;
+
+  img{
+width: 100%;
+height: 100%;
+border-radius:15px ;
+
+  }
+
+button{
+padding: 1%;
+  position: absolute;
+
+  bottom: 10%;
+  left: 10%;
+  border-radius: 10px;
+
+  font-size: 20px;
+  backdrop-filter: blur(1px);
+  background-color: #c0c0c048;
+  color: black;
+
+
+}
+
+} 
+.GG{
+
+margin-top: 20px;
+margin-inline:1% ;
+font-size:20px ;
+display: flex;
+flex-direction: row-reverse;
+margin-bottom: 10px;
+@include sm{
+  padding-right: 10px;
+}
+
+}
+
+
+.JJ{
+  margin-top: 20px;
+  margin-inline:1% ;
+  font-size:20px ;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  @include sm{
+    padding-right: 10px;
+  }
+
+  
+
+
+}
+
+
+.MM{
+  margin-inline: 1%;
+  height: 400px;
+  background-color:rgb(151, 46, 116);
+ 
+  border-radius: 15px;
+  align-items:start;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+  @include md{
+    height: max-content;
+    padding-block: 15px;
+  }
+ 
+  @include sm{
+    margin-inline: 0;
+    border-radius: 0;
+  }
+  
+
+
+
+}
+.RR{
+  margin-inline: 1%;
+  height: 300px;
+  margin-block: 10px;
+  display: flex;
+  justify-content: space-between;
+  @include md{
+    height: max-content;
+    flex-direction: column;
+    gap: 10px;
+  }
+  @include sm{
+    margin-inline: 0;
+  }
+  
+  }
+  .SS{
+  width:49.5%;
+  height: 100%;
+  box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+  border-radius: 15px;
+  position: relative;
+  @include md{
+  width: 100%;
+   
+  }
+  @include sm{
+    border-radius: 0;
+  }
+  
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    @include sm{
+      border-radius: 0;
+    }
+  }
+  
+  
+  }
+  .TT{
+    width:49.5%;
+    height: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+    border-radius: 15px;
+    position: relative;
+    @include md{
+      width: 100%;
+       
+      }
+      @include sm{
+        border-radius: 0;
+      }
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+      @include sm{
+        border-radius: 0;
+      }
+    }
+   
+  
+  
+  }
+
+.UU{
+margin-inline: 1%;
+margin-top: 30px;
+margin-bottom: 20px;
+font-size:20px ;
+display: flex;
+flex-direction: row-reverse;
+@include sm{
+  padding-right: 10px;
+}
+
+}
+.VV{
+margin-inline: 1%;
+height: max-content;
+background-color:rgb(151, 46, 116);
+border-radius: 20px;
+direction: rtl;
+margin-bottom: 30px;
+
+align-items: center;
+display: flex;
+flex-direction: column;
+box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+gap: 20px;
+padding-block: 20px;
+
+@include sm{
+  margin-inline: 0;
+  border-radius: 0;
+}
+
+}
+.WW{
+
+width: 95%;
+height:80%;
+display: flex;
+
+align-items: center;
+justify-content: center;
+
+
+
+
+
+}
+.XX{
+
+width: 18%;
+height: 100%;
+background-color: blue;
+border-radius: 15px;
+
+}
+.YY{
+  margin-inline: 1%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size:20px ;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+  @include sm{
+    padding-right: 10px;
+  }
+
+
+
+}
+.ZZ{
+margin-inline: 1%;
+height: max-content;
+box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+border-radius: 15px;
+font-size: 17px;
+direction: rtl ;
+padding-right: 20px;
+gap: 5px;
+padding-block: 20px;
+
+
+@include xxl{
+  direction: rtl ;
+  padding-left: 20px;
+}
+@include sm{
+  margin-inline: 0;
+  border-radius: 0;
+}
+
+}
+
+.A{
+
+
+height: 80px;
+margin-inline: 1%;
+font-size: 50px;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: space-between;
+padding-inline: 20px;
+@include xl{
+  flex-direction: column;
+  padding-block: 30px;
+  height: auto;
+  gap: 10px;
+}
+
+
+}
+
+.J{
+
+
+font-size: 18px;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: space-between ;
+gap: 20px;
+
+
+
+
+
+}
+.K{
+
+font-size: 18px;
+
+
+
+}
+.L{
+width:2px ;
+height: 50px;
+background-color: gray;
+
+}
+
+.P{
+
+color: red;
+
+}
+.search-container{
+width: 70%;
+height:80%;
+
+background-color:rgba(192, 192, 192, 0.164);
+border-radius: 5px;
+align-items: center;
+display: flex;
+position: relative;
+border: none;
+svg{
+  position: absolute;
+  right: 1%;
+ 
+}
+}
+
+input {
+  width:100%;
+  text-align: end;
+  height: 100%;
+  border:none;
+  background-color:rgba(192, 192, 192, 0.014);
+padding-right: 10px;
+padding-right: 5%;
+ 
+
+
+  
+}
+
+.placeholder{
+  position: absolute;
+
+
+
+
+}
+
+
+.R{
+width: 15%;
+height: 80%;
+background-color: white;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0px 0px 2px 0px rgba(128, 128, 128, 1);
+position: relative;
+font-size:17px;
+
+&:hover{
+  color:black
+}
+@include xxl{
+  font-size: 15px;
+}
+b{
+  display: flex;
+   gap: 5px;
+
+  align-items: center;
+ 
+  position: absolute;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+
+}
+
+}
+.S{
+  background-color: white;
+  width: 10%;
+  height: 80%;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 2px 0px rgba(128, 128, 128, 1);
+  position: relative;
+  font-size:17px;
+  &:hover{
+    color:black
+}
+  @include xxl{
+    font-size: 15px;
+  }
+  b{
+    
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 5px;
+ 
+  }
+  .CategoryList{
+    position: absolute;
+    width: 50dvh;
+    height: 50dvh;
+ 
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    background-color:red;
+    transition: all 1s;
+    visibility: hidden;
+    top:60px;
+    .btnclose{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      height: 30px;
+      width: 30px;
+    }
+    }
+    &:Active{
+    
+      .CategoryList{
+        visibility: visible;
+    
+      }
+    
+    }
+}
+
+.V{
+width: 10%;
+height: 100%;
+
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+gap:2px;
+
+img{
+  width: 100%;
+height:15%;
+padding-block: 0;
+border-radius: 15px;
+
+}
+
+
+}
+.W{
+height: 25%;
+width: 95%;
+margin-left: 3%;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+color: white;
+@include md{
+  justify-content: center;
+}
+
+
+}
+.X{
+height: 70%;
+width: 75%;
+gap: 10px;
+display: flex;
+margin-left: 2%;
+justify-content: space-between;
+
+@include md{
+  width: 96%;
+  flex-direction: column;
+   margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  gap: 5px;
+ 
+}
+img{
+height: 100%;
+width:100%;
+border-radius:30px;
+
+
+
+}
+
+
+
+}
+
+.Z{
+display: flex;
+gap: 20px !important;
+
+
+
+}
+.PO{
+
+
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+gap:10px;
+button{
+  @include sm{
+    font-size: 12px;
+  }
+}
+}
+.QW{
+
+width: 6%;
+
+border-radius: 15px;
+position: absolute;
+top: 3%;
+bottom: 3%;
+left: 1%;
+justify-content: space-between;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+
+
+img{
+width: 80px;
+height:80px;
+border-radius: 20px;
+inset: 0;
+
+}
+
+}
+
+
+
+#AS{
+  width: 100%;
+  height: 50dvh;
+  display: flex;
+
+
+
+
+}
+
+

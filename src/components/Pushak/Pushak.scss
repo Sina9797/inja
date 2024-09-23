@@ -1,0 +1,180 @@
+@import "../../Responsive.scss";
+@import "../../Colors.scss";
+
+
+.NN{
+    margin-inline: 1%;
+    height: 600px;
+  
+    margin-block: 20px;
+    display: flex;
+   justify-content: space-between;
+   @include md{
+    height:max-content;
+    flex-direction: column;
+    gap: 20px;
+   }
+   @include sm{
+    margin-inline: 0;
+   }
+  
+  
+  
+    
+  
+  }
+  .OO{
+  width: 75%;
+  height:600px;
+  background-color: blue;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+  @include md{
+    width: 100%;
+    align-items: center;
+  
+  }
+  @include sm{
+    height: max-content;
+    flex-direction: column;
+    border-radius: 0;
+    justify-content: space-between;
+    box-shadow: none ;
+    position: relative;
+    gap: 15px;
+  padding-block: 20px;
+  
+   
+   
+  }
+  
+  
+  header{
+  width: 78%;
+  height: 15%;
+  
+  position: absolute;
+  right: 5%;
+  top:4%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+  }
+  
+  
+  }
+  .PP{
+  width: 24%;
+  height: 600px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  @include md{
+    width: 100%;
+    height: max-content;
+    gap: 15px;
+  }
+  
+  
+  
+  
+  
+  }
+  .QQ{
+  
+  height:23%;
+  
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  align-items:end;
+  justify-content:center;
+  color: black;
+  @include sm{
+    border-radius: 0;
+   
+  }
+  
+  
+  img{
+    height:100%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+    @include sm{
+      border-radius: 0;
+     
+    }
+    }
+    .btn{
+  
+  background-color:rgba(192, 192, 192, 0.733);
+  
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px 5px silver;
+  
+  
+  
+  
+    }
+   
+  
+  }
+  .ER{
+    width: 80%;
+    height: 70%;
+    border-radius: 25px;
+    position:absolute;
+    bottom: 10%;
+    right: 4%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    @include sm{
+      inset: 0;
+     height: max-content;
+      display: grid;
+       grid-template-columns: auto;
+     position: relative;
+       width: 100%;
+
+       
+    }
+    img{
+    
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+    @include md{
+    
+      border-radius: 0;
+      width: 100%;
+ 
+    }
+    
+    
+    
+    }
+    
+    
+    }
+    .JOJO{
+display: flex;
+flex-direction: row-reverse;
+gap: 5px;
+color: white;
+
+
+}

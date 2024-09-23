@@ -1,0 +1,137 @@
+@import "../../Responsive.scss";
+@import "../../Colors.scss";
+
+.B{
+    margin-inline: 1%;
+    height: 350px;
+    
+    border-radius: 10px;
+    position: relative;
+   
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-inline: 20px;
+    @include lg{
+      margin-bottom: 0;
+    }
+    @include sm{
+      margin-inline: 0;
+    }
+    
+    
+    }
+    .M{
+        width: 52%;
+        height: 15%;
+        
+        position: absolute;
+        top: 20px;
+        right: 5.5%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        font-size: 20px;
+        }
+      
+            .C{
+              
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                gap: 10px;
+          
+                
+                
+                }
+                .D{
+                width: 200px;
+                height: 200px;
+               
+                border-radius: 15px;
+                box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+                
+                img{
+                  width: 100%;
+                  height: 100%;
+                  border-radius: 15px;
+                
+                  
+                }
+              
+                }
+                .E
+                 {
+                  width: 200px;
+                  height: 200px;
+                  
+                 align-items: center;
+                 box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 1);
+                 display: flex;
+                    border-radius: 15px;
+                   
+                    img{
+                      width: 100%;
+                      height: 80%;
+                      border-radius: 15px;
+                    }
+                   
+
+                    }
+                    
+                
+                
+                
+               
+                .F{
+                  width: 250px;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                   align-items: end;
+                  
+                  padding-top: 35px;
+                  
+                   
+               
+                
+            
+                  
+                 }
+               
+                   
+                  
+                    .G{
+                    
+                   
+                      height: 100%;
+                    
+                      padding-bottom: 70px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: end;
+                      justify-content: space-between;
+                      font-size: 18px;
+                      padding-top: 35px;
+                    
+                    }
+                    .H{
+                    
+                      height: 100%;
+                
+                   padding-bottom: 70px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: end;
+                      justify-content: space-between;
+                      font-size: 18px;
+                      padding-top: 35px;
+                    
+                    }
+                   
+
+                    
